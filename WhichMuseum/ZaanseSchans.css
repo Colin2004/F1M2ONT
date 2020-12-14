@@ -1,13 +1,35 @@
-h1 {
-    color:green
+html, body {
+    margin: 0; padding:0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+nav {
+    background-color: green;
+    height: 39px;
+}
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    width: 200px;
+    padding: 10px 20px;
+    float: left;
+    text-align: center;
+}
+nav a:hover {
+    background-color: rgb(5, 44, 5);
+}
+h1  {
+    clear: both;
+    margin: 0;
+    padding: 30px;
+    color: white;
+    background-color:rgb(0, 77, 19);
+    font-family: serif;
 }
 img {
     max-width:100%;
 }
-html {
-    font-family: sans-serif;
-  }
-h1  {
-   font-family: serif;
-   background-color: black;
-  }
