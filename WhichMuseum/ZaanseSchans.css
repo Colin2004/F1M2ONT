@@ -1,9 +1,10 @@
-html, body {
+*html, body {
     margin: 0; padding:0;
 }
 
 body {
     font-family: sans-serif;
+    background-color: rgba(31, 189, 31, 0.521);
 }
 
 nav {
